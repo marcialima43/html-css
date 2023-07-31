@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+nav{
+    background-color: rgba(116, 115, 115, 0.53);
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.695);
+    padding: 3px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(165, 165, 165);
+
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 3px;
+
+}
+footer > p{
+    margin: 0px;
+}
+div#perfil{
+    background-color: white;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
