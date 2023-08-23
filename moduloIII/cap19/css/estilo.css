@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body{
+    background-image: url('https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png');
+    background-size: 100x 100px;
+}
 
 div.quadrado{
     display: inline-block;
